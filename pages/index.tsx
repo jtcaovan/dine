@@ -11,52 +11,52 @@ const Home: NextPage = () => {
       </Head>
 
       <main>
-        <h1 className=''>dine</h1>
-        <h2 className=''>Exquisite dining since 1989</h2>
-        <p> Experience our seasonal menu in beautiful country surroundings. Eat the freshest produce from the comfort of our farmhouse.</p>
-        <button>Book a table</button>
+        <h2 className='text-4xl'>dine</h2>
+        <h1 className='text-4xl'>Exquisite dining since 1989</h1>
+        <p className='text-sm'> Experience our seasonal menu in beautiful country surroundings. Eat the freshest produce from the comfort of our farmhouse.</p>
+        <button className='text-xs border'>Book a table</button>
 
-        <h2>Enjoyable place for all the family</h2>
-        <p>Our relaxed surroundings make dining with us a great experience for everyone. We can even arrange 
+        <h3 className='text-4xl'>Enjoyable place for all the family</h3>
+        <p className='text-sm'>Our relaxed surroundings make dining with us a great experience for everyone. We can even arrange 
   a tour of the farm before your meal.</p>
 
-        <h2>The most locally sourced food</h2>
-        <p>All our ingredients come directly from our farm or local fishery. So you can be sure that you’re 
+        <h3 className='text-4xl'>The most locally sourced food</h3>
+        <p className='text-sm'>All our ingredients come directly from our farm or local fishery. So you can be sure that you’re 
   eating the freshest, most sustainable food.</p>
 
-        <h2>A few highlights from our menu</h2>
-        <p>We cater for all dietary requirements, but here’s a glimpse at some of our diner’s favourites. 
+        <h3 className='text-4xl'>A few highlights from our menu</h3>
+        <p className='text-sm'>We cater for all dietary requirements, but here’s a glimpse at some of our diner’s favourites. 
   Our menu is revamped every season.</p>
 
-        <h3>Seared Salmon Fillet</h3>
-        <p>Our locally sourced salmon served with a refreshing buckwheat summer salad.</p>
+        <h3 className='text-4xl'>Seared Salmon Fillet</h3>
+        <p className='text-sm'>Our locally sourced salmon served with a refreshing buckwheat summer salad.</p>
 
-        <h3>Rosemary Filet Mignon</h3>
-        <p>Our prime beef served to your taste with a delicious choice of seasonal sides.</p>
+        <h3 className='text-4xl'>Rosemary Filet Mignon</h3>
+        <p className='text-sm'>Our prime beef served to your taste with a delicious choice of seasonal sides.</p>
 
-        <h3>Summer Fruit Chocolate Mousse</h3>
-        <p>Creamy mousse combined with summer fruits and dark chocolate shavings.</p>
+        <h3 className='text-4xl'>Summer Fruit Chocolate Mousse</h3>
+        <p className='text-sm'>Creamy mousse combined with summer fruits and dark chocolate shavings.</p>
 
 
         <p>Family Gathering</p>
         <p>Special Events</p>
         <p>Social Events</p>
 
-        <h2>Family Gathering</h2>
-        <p>We love catering for entire families. So please bring everyone along for a special meal with your 
+        <h3 className='text-4xl'>Family Gathering</h3>
+        <p className='text-sm'>We love catering for entire families. So please bring everyone along for a special meal with your 
   loved ones. We’ll provide a memorable experience for all.</p>
 
-        <h2>Special Events</h2>
-        <p>Whether it’s a romantic dinner or special date you’re celebrating with others we’ll look after you. 
+        <h3 className='text-4xl'>Special Events</h3>
+        <p className='text-sm'>Whether it’s a romantic dinner or special date you’re celebrating with others we’ll look after you. 
   We’ll be sure to mark your special date with an unforgettable meal.</p>
 
-        <h2>Social Events</h2>
-        <p>Are you looking to have a larger social event? No problem! We’re more than happy to cater for big 
+        <h3 className='text-4xl'>Social Events</h3>
+        <p className='text-sm'>Are you looking to have a larger social event? No problem! We’re more than happy to cater for big 
   parties. We’ll work with you to make your event a hit with everyone.</p>
 
 
-        <h2>Ready to make a reservation?</h2>
-        <button>BOOK A TABLE</button>
+        <h3 className='text-4xl'>Ready to make a reservation?</h3>
+        <button className='text-xs'>BOOK A TABLE</button>
       </main>
 
       <footer className=''>

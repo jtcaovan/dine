@@ -1,4 +1,6 @@
 const defaultTheme = require('tailwindcss/defaultTheme');
+const colors = require('tailwindcss/colors')
+
 
 module.exports = {
   content: [
@@ -7,6 +9,8 @@ module.exports = {
   ],
   theme: {
     colors: {
+      'black': colors.black,
+      'white': colors.white,
       'beaver': '#9E7F66',
       'cod-gray': '#111111',
       'mirage': '#17192B',

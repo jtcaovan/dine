@@ -1,4 +1,5 @@
 import type { NextPage } from 'next'
+import Hero from './Hero'
 import Head from 'next/head'
 
 const Home: NextPage = () => {
@@ -11,10 +12,7 @@ const Home: NextPage = () => {
       </Head>
 
       <main>
-        <h2 className='text-4xl'>dine</h2>
-        <h1 className='text-4xl'>Exquisite dining since 1989</h1>
-        <p className='text-sm'> Experience our seasonal menu in beautiful country surroundings. Eat the freshest produce from the comfort of our farmhouse.</p>
-        <button className='text-xs border'>Book a table</button>
+        <Hero />
 
         <h3 className='text-4xl'>Enjoyable place for all the family</h3>
         <p className='text-sm'>Our relaxed surroundings make dining with us a great experience for everyone. We can even arrange 
